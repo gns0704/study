@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .my-table-spacing {
+    border-spacing: theme("spacing.3");
+  }
+  .my-button {
+    padding:10px;
+    border-radius:4px;
+    background-color: rgb(36, 187, 151);
+    color:white;
+    font-weight: bold;
+  }
+}
